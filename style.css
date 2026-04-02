@@ -1,0 +1,81 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    text-align: center;
+}
+
+.red {
+    background-color: red;
+    color: white;
+}
+.orange {
+    background-color: orange;
+    color: white;
+}
+.yellow {
+    background-color: yellow;
+    color: white;
+}
+.green {
+    background-color: green;
+    color: white;
+}
+.blue {
+    background-color: blue;
+    color: white;
+}
+.indigo {
+    background-color: indigo;
+    color: white;
+}
+.purple {
+    background-color: purple;
+    color: white;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+    border: 2px;
+    border-style: inset;
+    height: 50vh;
+    margin: 10px;
+    overflow-y: scroll;
+}
+.container div {
+    padding-top: 15px;
+    height: 30px;
+    width: 60px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: small;
+    border-style:outset;
+}
+
+.flex-setting {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.flex-setting div {
+    margin: 10px;
+    padding: 10px;
+    background-color: bisque;
+    border-radius: 5px;
+}
+
+select {
+    height: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+
+@media (max-width: 720px){
+    .flex-setting {
+        flex-direction: column;
+        justify-content: center;
+        margin: 10px;
+    }
+}
