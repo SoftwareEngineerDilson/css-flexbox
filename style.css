@@ -4,6 +4,7 @@ body {
 
 h1 {
     text-align: center;
+    color: rgb(4, 106, 91);
 }
 
 .red {
@@ -37,21 +38,24 @@ h1 {
 
 .container {
     display: flex;
-    gap: 10px;
+    gap: 2px;
     border: 2px;
-    border-style: inset;
+    border-style:dashed;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: lightslategrey;
     height: 50vh;
     margin: 10px;
-    overflow-y: scroll;
+    padding: 10px;
 }
 .container div {
-    padding-top: 15px;
     height: 30px;
-    width: 60px;
-    border-radius: 10px;
+    width: 45px;
+    padding-top: 15px;
+    border-radius: 50%;
     text-align: center;
     font-size: small;
-    border-style:outset;
+    border-style:double;
 }
 
 .flex-setting {
@@ -65,7 +69,17 @@ h1 {
     background-color: bisque;
     border-radius: 5px;
 }
-
+.flex-setting div:hover {
+    background-color: rgb(123, 205, 190);
+    cursor: pointer;
+}
+.flex-setting div select {
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    border-style:hidden;
+    
+}
 select {
     height: 30px;
     font-family: 'Courier New', Courier, monospace;
