@@ -1,6 +1,6 @@
 /**
  * update flex box property via select option dropdown
- * 2026 by dilsontorrefiel
+ * 2026 by dilsonTorrefiel
  */
 
 // get element object 
