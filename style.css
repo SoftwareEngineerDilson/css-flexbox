@@ -66,6 +66,9 @@ h1 {
     margin: 10px;
     padding: 10px;
 }
+.container div.yellow {
+    color: red;
+}
 .container div {
     height: 50px;
     width: 80px;
@@ -73,7 +76,7 @@ h1 {
     border-radius: 50%;
     text-align: center;
     font-size: large;
-    border-style:double;
+    font-style: bold;
 }
 
 .flex-setting {
