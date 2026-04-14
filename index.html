@@ -8,60 +8,62 @@
     <script src="./script.js" defer></script>
   </head>
   <body>
-    <h1>CSS: Flexbox</h1>
-    <div id="container" class="container">
-      <div class="red">R</div>
-      <div class="orange">O</div>
-      <div class="yellow">Y</div>
-      <div class="green">G</div>
-      <div class="blue">B</div>
-      <div class="indigo">I</div>
-      <div class="purple">P</div>
-    </div>
-    <div class="btn-tricks">
-      <a href="./flexbox-tricks.html" target="_blank">Tricks</a>
-    </div>
-    <div class="flex-setting">
-      <div>
-        <label for="justify-content">Justify Content:</label>
-        <select id="justify-content">
-          <option value="flex-start">Flex Start</option>
-          <option value="flex-end">Flex End</option>
-          <option value="center">Center</option>
-          <option value="space-between">Space Between</option>
-          <option value="space-around">Space Around</option>
-          <option value="space-evenly">Space Evenly</option>
-        </select>
+    <div class="main-container">
+      <h1>CSS: Flexbox</h1>
+      <div id="container" class="container">
+        <div class="red">R</div>
+        <div class="orange">O</div>
+        <div class="yellow">Y</div>
+        <div class="green">G</div>
+        <div class="blue">B</div>
+        <div class="indigo">I</div>
+        <div class="purple">P</div>
       </div>
-      <div>
-        <label for="flex-wrap">Flex Wrap:</label>
-        <select id="flex-wrap">
-          <option value="nowrap">No Wrap</option>
-          <option value="wrap">Wrap</option>
-          <option value="wrap-reverse">Wrap Reverse</option>
-        </select>
+      <div class="btn-tricks">
+        <a href="./flexbox-tricks.html" target="_blank">Tricks</a>
       </div>
-      <div>
-        <label for="align-items">Align Items:</label>
-        <select id="align-items">
-          <option value="flex-start">Flex Start</option>
-          <option value="flex-end">Flex End</option>
-          <option value="center">Center</option>
-          <option value="baseline">Baseline</option>
-          <option value="stretch">Stretch</option>
-        </select>
-      </div>
-      <div>
-        <label for="align-content">Align Content:</label>
-        <select id="align-content">
-          <option value="flex-start">Flex Start</option>
-          <option value="flex-end">Flex End</option>
-          <option value="center">Center</option>
-          <option value="space-between">Space Between</option>
-          <option value="space-around">Space Around</option>
-          <option value="space-evenly">Space Evenly</option>
-          <option value="stretch">Stretch</option>
-        </select>
+      <div class="flex-setting">
+        <div>
+          <label for="justify-content">justify-content:</label>
+          <select id="justify-content">
+            <option value="flex-start">flex-start</option>
+            <option value="flex-end">flex-end</option>
+            <option value="center">center</option>
+            <option value="space-between">space-between</option>
+            <option value="space-around">space-around</option>
+            <option value="space-evenly">space-evenly</option>
+          </select>
+        </div>
+        <div>
+          <label for="flex-wrap">flex-wrap:</label>
+          <select id="flex-wrap">
+            <option value="nowrap">nowrap</option>
+            <option value="wrap">warp</option>
+            <option value="wrap-reverse">wrap-reverse</option>
+          </select>
+        </div>
+        <div>
+          <label for="align-items">align-items:</label>
+          <select id="align-items">
+            <option value="flex-start">flex-start</option>
+            <option value="flex-end">flex-end</option>
+            <option value="center">center</option>
+            <option value="baseline">baseline</option>
+            <option value="stretch">stretch</option>
+          </select>
+        </div>
+        <div>
+          <label for="align-content">align-content:</label>
+          <select id="align-content">
+            <option value="flex-start">flex-start</option>
+            <option value="flex-end">flex-end</option>
+            <option value="center">center</option>
+            <option value="space-between">space-between</option>
+            <option value="space-around">space-around</option>
+            <option value="space-evenly">space-evenly</option>
+            <option value="stretch">stretch</option>
+          </select>
+        </div>
       </div>
     </div>
     <hr />

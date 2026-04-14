@@ -1,7 +1,6 @@
 body {
   font-family: "Courier New", Courier, monospace;
-  margin: 0;
-  height: 60vh;
+  margin-bottom: 0px;
 }
 
 h1 {
@@ -12,9 +11,10 @@ h1 {
 }
 hr {
   margin: 0;
-  margin-top: 125px;
 }
-
+.main-container {
+  margin: 0px;
+}
 .red {
   background-color: red;
   color: white;
@@ -69,7 +69,7 @@ hr {
   border-radius: 10px;
   border-color: lightslategrey;
   height: 25vh;
-  margin: 10px;
+  margin: 10px 145px;
   padding: 10px;
 }
 .container div.yellow {
@@ -128,5 +128,8 @@ select {
     flex-direction: column;
     justify-content: center;
     margin: 10px;
+  }
+  .container {
+    margin: 10px 5px;
   }
 }
