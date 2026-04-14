@@ -1,5 +1,6 @@
 body {
   font-family: "Courier New", Courier, monospace;
+  margin: 0;
 }
 
 h1 {
@@ -7,6 +8,9 @@ h1 {
   color: rgb(4, 106, 91);
   margin-bottom: 5px;
   margin-top: 20px;
+}
+hr {
+  margin: 0;
 }
 
 .red {
@@ -62,7 +66,7 @@ h1 {
   border-width: 2px;
   border-radius: 10px;
   border-color: lightslategrey;
-  height: 40vh;
+  height: 25vh;
   margin: 10px;
   padding: 10px;
 }
@@ -85,8 +89,8 @@ h1 {
   margin: 10px;
 }
 .flex-setting div {
-  margin: 10px;
-  padding: 10px;
+  margin: 5px;
+  padding: 5px;
   background-color: bisque;
   border-radius: 5px;
 }
@@ -109,8 +113,17 @@ select {
   color: #777;
   font-size: 15px;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 5px;
   margin-bottom: 20px;
+}
+footer {
+  background-color: #47b5ff;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 @media (max-width: 720px) {
   .flex-setting {
