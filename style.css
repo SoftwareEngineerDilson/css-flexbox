@@ -11,6 +11,7 @@ h1 {
 }
 hr {
   margin: 0;
+  margin-top: 125px;
 }
 
 .red {
@@ -109,21 +110,17 @@ select {
   font-family: "Courier New", Courier, monospace;
   font-size: medium;
 }
-#footer {
-  color: #777;
-  font-size: 15px;
-  text-align: center;
-  margin-top: 5px;
-  margin-bottom: 20px;
-}
-footer {
-  background-color: #47b5ff;
-}
-footer {
+.footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   text-align: center;
+  padding-top: 10px;
+  background-color: #47b5ff;
+}
+.footer p {
+  color: white;
 }
 @media (max-width: 720px) {
   .flex-setting {
