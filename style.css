@@ -77,15 +77,18 @@ hr {
   color: red;
 }
 .container div {
-  height: 40px;
-  width: 40px;
-  align-content: center;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 50%;
-  text-align: center;
   font-size: large;
   font-style: bold;
 }
-
+label {
+  padding-left: 10px;
+}
 .flex-setting {
   display: flex;
   justify-content: center;
